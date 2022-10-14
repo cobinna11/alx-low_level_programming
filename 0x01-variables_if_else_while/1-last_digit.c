@@ -18,6 +18,6 @@ int main(void)
 	else if (n == 0)
 		printf("%d is zero\n", n);
 	else if (n < 0)
-		printf("%d is negative\n", n);
+		printf("Last digit of -98 is -8 and is less than 6 and not 0 %d is negative\n", n);
 	return (0);
 }
