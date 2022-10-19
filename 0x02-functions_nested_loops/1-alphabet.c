@@ -1,19 +1,21 @@
 #include "main.h"
+
 /**
- * main - Entry point
+ * print_alphabet - check the code for ALX School students.
  *
- * Return: Always 0 (Success)
+ * Return: Always 0.
  */
-int main(void)
+
+void print_alphabet(void)
 {
-	char *sh = "Main";
+	char alp = 'a';
 
-	while (*sh)
+	while (alp <= 'z')
 	{
-		_putchar(*sh);
-		sh++;
-	}
-	_putchar('\n');
+		_putchar (alp);
+		alp++;
 
-	return (0);
+	}
+	_putchar ('\n');
+
 }
