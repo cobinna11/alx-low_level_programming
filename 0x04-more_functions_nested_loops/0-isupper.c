@@ -1,16 +1,17 @@
 #include "main.h"
-#include <stdio.h>
 
 /**
- * _isupper - Check if paramter c represents an uppercase letter.
- * @c: Int representing a character
- * Return: Always 0.
+ * _isupper - define if a character is uppercase
+ *
+ * Description: Prints the alphabet with _putchar
+ * @c: charater
+ * Return: void
  */
+
 int _isupper(int c)
 {
-	if (c >= 65 && c <= 90)
-	{
+	if (c >= 'A' && c <= 'Z')
 		return (1);
-	}
-	return (0);
+	else
+		return (0);
 }
