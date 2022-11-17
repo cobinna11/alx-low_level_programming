@@ -19,3 +19,10 @@ typedef struct p
   void (*f)(va_list);
 } checker;
 
+void print_c(va_list);
+void print_i(va_list);
+void print_f(va_list);
+void print_s(va_list);
+
+#endif
+
